@@ -1,0 +1,87 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-family: "Libre Baskerville", serif;
+  background: #e4d6a7;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+img{
+  display: block;
+  margin: 2% auto;
+  height: 30%;
+}
+
+body{
+  padding: 1% 5%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+main{
+  display: flex;
+  justify-content: space-around;
+}
+
+h2{
+  transition: ease-in .2s;
+}
+
+main input{
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.enterISBN .error{
+  color: red;
+  font-size: .75rem;
+  visibility: hidden;
+}
+.enterISBN {
+  margin: 20px auto;
+  width: 25%;
+  text-align: center;
+}
+
+form *{
+  display: block;
+  line-height: 1.5;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  border: #50a2a7;
+}
+
+.result > *{
+  margin-top: 50px;
+  width: 40%;
+  height: 300px;
+}
+
+.result h3 {
+  padding: 100px 0;
+  text-align: right;
+}
+
+strong{
+  font-style: italic;
+}
+
+.result img{
+  height: 100%;
+}

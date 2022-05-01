@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>ReadingTime</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class='enterISBN'>
+		<h1>ReadingTime</h1>
+		<p>Schedule your reading!</p>
+		<label>Enter ISBN</label>
+		<input class='isbn' type="text" name="" value="">
+		<p class='error'>Error: page_length not found. Try different ISBN</p>
+	</div>
+
+	<main>
+		<form>
+			<h2>howLongToRead?</h2>
+			<div class='formElement'>
+				<label>How many pages have you read?</label>
+				<input class='progress' type="text" name="" value="">
+			</div>
+			<div class='formElement'>
+				<label>How many pages will you read a day?</label>
+				<input class='pageRate' type="number">
+			</div>
+			<button id='howLongToRead' type="button" name="button">Calculate how many days!</button>
+		</form>
+
+		<form>
+			<h2>howManyPages?</h2>
+			<label>How many pages are you into the book?</label>
+			<input class='progressA' type="text" name="" value="">
+			<label>How many days do you have?</label>
+			<input class='days' type="number">
+			<button id='howManyPages' type="button" name="button">Calculate your pages goal!</button>
+		</form>
+	</main>
+
+	<section class='result'>
+		<h3>Results:</h3>
+		<div>
+			<img src=''>
+		</div>
+	</section>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Renner-Book
+font link: http://indestructibletype.com/BuyRenner.html
+font author: indestructible type*
+font author site: http://indestructibletype.com/Home.html
+
+
+icon designer: Austin Condiff
+icon designer link: /acondiff
+        
+{"bg-gradient-0":"#51A4FB","bg-gradient-1":"#51A4FB","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

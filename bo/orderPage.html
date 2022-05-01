@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>bo: Order Page</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400;0,600;0,900;1,500&family=&family=Quicksand&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1502ba0b1a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <h1>bō</h1>
+
+    <!--START FORM VERSION OF MENU-->
+    <section class="menuForm" id='menu'>
+        <div class='menuBorder'>
+            <h5>Made Fresh To Order</h5>
+            <h2>Menu</h2>
+            <form class='drinksForm' action='#'>
+                <div class="menuContents form">
+                    <div class='drink tea'>
+                        <h4><strong>Tea</strong>
+                            $4</h4>
+                        <ul>
+                            <li>
+                                <label for='jasmineGreen'>
+                                    <input class='drinkSelection' type='radio' name='drinkType'
+                                        id='jasmineGreen'>Jasmine Green
+                                </label>
+                            </li>
+                            <li>
+                                <label for='oolong'>
+                                    <input class='drinkSelection' type='radio' name='drinkType' id='oolong'>Oolong
+                                </label>
+                            </li>
+                            <li>
+                                <label for='earlGrey'>
+                                    <input class='drinkSelection' type='radio' name='drinkType' id='earlGrey'>Earl Grey
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='drink coffee'>
+                        <h4><strong>Coffee</strong>
+                            $5</h4>
+                        <ul>
+                            <li>
+                                <label for='hotCoffee'>
+                                    <input class='drinkSelection' type="radio" name='drinkType' id='hotCoffee'>Hot (Dark
+                                    Roast)
+                                </label>
+                            </li>
+                            <li>
+                                <label for='icedColdBrew'>
+                                    <input class='drinkSelection' type="radio" name='drinkType' id='icedColdBrew'>Iced
+                                    Cold Brew
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='drinkAdd milks'>
+                        <h4><strong>Milks</strong></h4>
+                        <ul>
+                            <li>
+                                <label for="wholeMilk">
+                                    <input class='milkSelection' type='radio' name='milkType' id='wholeMilk'>Whole Milk
+                                    (Lactose Free)
+                                </label>
+                            </li>
+                            <li>
+                                <label for="almondMilk">
+                                    <input class='milkSelection' type='radio' name='milkType' id='almondMilk'>Almond
+                                    Milk +$0.50
+                                </label>
+                            </li>
+                            <li>
+                                <label for="oatMilk">
+                                    <input class='milkSelection' type='radio' name='milkType' id='oatMilk'>Oat Milk
+                                    +$0.75
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class='drinkAdd toppings'>
+                        <h4><strong>Toppings $0.50ea</strong></h4>
+                        <ul>
+                            <li>
+                                <label for='blackPearls'>
+                                    <input type='checkbox' name='drinkToppings' id=''>Black pearls
+                                </label>
+                            </li>
+                            <li>
+                                <label for='crystalPearls'>
+                                    <input type='checkbox' name='drinkToppings' id=''>Crystal pearls
+                                </label>
+                            </li>
+                            <li>
+                                <label for='pudding'>
+                                    <input type='checkbox' name='drinkToppings' id=''>Pudding
+                                </label>
+                            </li>
+                            <li>
+                                <label for='grassJelly'>
+                                    <input type='checkbox' name='drinkToppings' id=''>Grass jelly
+                                </label>
+                            </li>
+                            <li>
+                                <label for='aloe'>
+                                    <input type='checkbox' name='drinkToppings' id=''>Aloe
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='orderSummary'>
+                    <ul>
+                        <li id='drinkChoice'></li>
+                        <li id='milkChoice'></li>
+                        <ul id='toppings'></ul>
+                    </ul>
+                </div>
+
+        </div>
+        <div class='navigate'>
+            <button><a href="index.html" target="_self">Back to Home</a></button>
+
+        </div>
+        </form>
+    </section>
+
+    <script type="text/javascript" src="js/main.js">
+    </script>
+</body>
+
+</html>
