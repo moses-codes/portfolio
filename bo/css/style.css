@@ -94,8 +94,16 @@ ul li{
 }
 header{
   margin-top: -10px;
-  background: whitesmoke;
+  background: transparent;
   padding-bottom: 10px;
+}
+
+.mainContainer .navItems {
+  justify-content: center;
+}
+
+.navItems li{
+  margin:0 20px;
 }
 
 .mainContent{
@@ -106,6 +114,7 @@ header{
   color: black;
   font-size: 2.5rem;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .mainContainer .navItems a:hover{

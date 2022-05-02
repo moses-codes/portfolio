@@ -1,0 +1,232 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: "Questrial", sans-serif;
+  padding: 0;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  height: 3rem;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+nav ul li{
+  list-style-type: none;
+  margin: 0 20px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+
+main{
+  height: 500px;
+  color: white;
+  margin-top: 0;
+  border: 1px solid transparent;
+}
+
+main h1{
+  margin-top: 9.5%;
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+main h2{
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+main h1, main h2{
+  text-align: center;
+}
+
+section{
+  width: 70%;
+  margin: 50px auto;
+}
+section p{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.photogrid{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.photogrid div{
+  height: 400px;
+  transition: .2s ease;
+}
+
+.photogrid div:hover{
+  height: 440px;
+  transition: .2s ease;
+}
+.photogrid strong{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.photogrid img{
+  height: 80%;
+}
+
+.photogrid p{
+  text-align: center;
+  
+  color: black; 
+}
+
+footer {
+  background: #3c5a9a;
+  margin: 0;
+  border: solid transparent 1px;
+}
+
+footer p{
+  text-align: center;
+  color: #dbdbdb;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*HOME*/
+.mainHome{
+  background-image: url(images/YouthTheatre.jpg);
+  background-size: 100%;
+  background-position-y: 50%;
+}
+/*PRODUCTIONS*/
+.mainProductions{
+  height: 200px;
+  background-image: url(images/TheatreInterior.jpg);
+  background-size: 100%;
+}
+
+.mainProductions h1{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.nowPlaying{
+  text-align: center;
+}
+
+.nowPlaying img{
+  height: 600px;
+}
+/*ABOUT*/
+.aboutUs{
+  background: black;
+  background-image: url(images/rehearsal.jpg);
+  background-position-y: 60%;
+  background-size: 100%;
+}
+
+.directorInfo{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.directorInfo > div{
+  margin-left: 10px;
+}
+
+.directors div img{
+  width: 300px;
+}
+
+.directors div h4{
+  font-size: 3rem;
+  margin-top: 200px;
+}
+
+.feat-players{
+  margin-bottom: 60px;
+}
+
+.players{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.players h4{
+  text-align: center;
+}
+
+.players div{
+  height: 300px;
+}
+.players img{
+  height: 100%;
+}
+
+/*TICKETS*/
+.mainTickets{
+  background-image: url(images/dramaticStage.jpg);
+  background-size: 150%;
+  background-position-x: 80%;
+  background-position-y: 40%;
+}
+
+/*contact/donate*/
+.mainContact{
+  background-image: url(images/actionShot.jpg);
+  background-size: 100%;
+}
+
+.contactForm{
+  display: flex;
+}
+
+.contactForm div h3, .contactForm div p{
+  text-align: left;
+}
+
+.contactForm form{
+  display: block;
+}
